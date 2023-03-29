@@ -1,0 +1,43 @@
+.sidebar{
+    // flex: 1;
+    border-right: 1px solid #ddd;
+    width: 240px;
+    position: fixed;
+    height: 100vh;
+    .logo{
+        border-bottom: 1px solid #ddd;
+    }
+}
+.sidebar_menu{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+
+    a{
+        font-size: 2rem;
+        &.active{
+            background: #ddd;
+        }
+        &:hover{
+            background: #ddd;
+        }
+    }
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 5px 10px;
+    color:var( --color-secondary);
+    .icon{
+        display: flex;
+    align-self: center;
+        svg{
+            font-size: 30px;
+        }
+    }
+   
+
+   
+}

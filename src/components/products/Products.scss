@@ -1,0 +1,18 @@
+.product_content{
+    // flex: 2;
+    padding-right: 40rem;
+}
+
+.product_list{
+    display: flex;
+    // justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.product_wrap h2{
+    font-size: 3rem;
+}
+.product_list:last-child{
+    // display: flex;
+    // justify-content: start;
+}

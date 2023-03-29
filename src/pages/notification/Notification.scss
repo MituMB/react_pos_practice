@@ -1,0 +1,34 @@
+.notification{
+    .title{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .info_box{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        padding:2rem;
+        border:1px solid #ddd;
+.left_box{
+    display:flex;
+    flex: 1;
+    gap: 2rem;
+}
+        .icon{
+            width:90px;
+            height: 50px;
+            display: flex;
+            align-items:center;
+            justify-content:center;
+            color: #fff;
+            font-size: 2.5rem;
+            border-radius: 100%;
+            background-color:var(--color-primary);
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+}
+    }
+}
