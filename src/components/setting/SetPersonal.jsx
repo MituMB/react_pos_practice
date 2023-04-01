@@ -2,7 +2,7 @@ import React from 'react'
 import "./Setting.scss";
 const SetPersonal = () => {
   return (
-    <div className="">
+    <div className="setting">
         <h2>Personal Information</h2>
         <form className="pt-2">
         <div className="form-control">

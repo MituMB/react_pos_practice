@@ -2,7 +2,7 @@ import React from 'react'
 
 const LanguageSetting = () => {
   return (
-    <div className="">
+    <div className="setting">
    <h2>Language & region</h2>
     <form className="pt-2">
     <div className="form-control">

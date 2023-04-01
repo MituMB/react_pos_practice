@@ -31,4 +31,13 @@
             -o-border-radius: 100%;
 }
     }
+
+    @media (min-width: 1367px){
+        
+  .info_box .icon {
+            width: 60px;
+            height: 50px;
+        
+        }
+    }
 }

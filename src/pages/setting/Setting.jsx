@@ -57,7 +57,7 @@ const Setting = () => {
               <h3>Opening Hours</h3>
             </div> */}
             <div
-              onClick={() => toggleTab(4)}
+              onClick={() => toggleTab(3)}
               className={`tab ${getActiveClass(3, "active-tab")}`}
             >
               <h3>Login & Password</h3>

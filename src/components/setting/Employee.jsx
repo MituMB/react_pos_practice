@@ -3,7 +3,7 @@ import { MdEdit } from "react-icons/md";
 import { Link } from 'react-router-dom';
 const Employee = () => {
   return (
-    <div className='employee'>
+    <div className='employee setting'>
          <h2>Employee Management</h2>
          <div className="customer_tbl card">
         <table>

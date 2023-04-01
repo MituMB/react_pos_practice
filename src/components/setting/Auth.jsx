@@ -2,7 +2,7 @@ import React from 'react'
 
 const Auth = () => {
   return (
-    <div className="">
+    <div className="setting">
     <h2>Login & Password</h2>
     <form className="pt-2">
     <div className="form-control">
